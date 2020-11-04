@@ -1,0 +1,38 @@
+body {
+	background-color: #000;
+	color: #fff;
+	font: 500 18px/1.5 "Verdana", sans-serif;
+}
+
+h1 {
+	font: 600 40px/2.5 "Arial", sans-serif;
+	text-align: center;
+	margin: 10px 10px;
+	color: #ffa500;
+}
+
+#clients {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#clients,
+td,
+tr,
+th {
+	border: 2px solid #999;
+	border-collapse: collapse;
+}
+td,
+th {
+	padding: 15px 15px;
+}
+
+tr:nth-child(even) {
+	background-color: #ccc;
+}
+
+tr:nth-child(odd) {
+	background-color: #666;
+}
